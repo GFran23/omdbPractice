@@ -1,0 +1,121 @@
+div {
+    color: #FF4500;
+}
+
+/* h1 {
+    background-color: #282828; 
+    color: red;
+     font-size: 40px;
+     font-weight: bolder;
+     font-style: italic;
+     margin-top: 0;
+     height:60px;
+     
+     
+    
+} */
+
+.container {
+    display: flex;
+    overflow-x: scroll;
+    background: transparent;
+    
+}
+
+.searchButton {
+    background-color: #FF0000;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80px;
+    height: 30px;
+
+    
+
+}
+
+.previousButton {
+    background-color: #00FF00;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 83px;
+    height: 30px;
+
+}
+
+.nextButton {
+    background-color: #0000FF;
+    border-radius: 15px;
+    font-weight: bolder;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 81px;
+    height: 30px;
+
+}
+
+.searchInput {
+    font-size: medium;
+    font-weight: bolder;
+    background-color: #FFFFE0;
+    border-radius: 6px;
+    height: 23px;
+    
+
+
+    
+}
+
+body {
+    background-image: url(https://bramptonist.com/wp-content/uploads/2018/06/netflix-image.jpg);
+    background-size: cover;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+
+.card {
+    border: 1px solid #282828;
+    background: #282828;
+    font-size: large;
+    margin: 3px;
+    /* opacity: 90%; */
+
+}
+
+.card:hover {
+    box-shadow: 2px 2px 5px 5px white;
+    border: 1px solid whitesmoke;
+
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #282828;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #101010;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
